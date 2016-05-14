@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD554E2D1CE319710002CF81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E2C1CE319710002CF81 /* main.m */; };
+		AD554E301CE319710002CF81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E2F1CE319710002CF81 /* AppDelegate.m */; };
+		AD554E331CE319710002CF81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E321CE319710002CF81 /* ViewController.m */; };
+		AD554E381CE319710002CF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD554E371CE319710002CF81 /* Assets.xcassets */; };
+		AD554E3B1CE319710002CF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD554E391CE319710002CF81 /* LaunchScreen.storyboard */; };
+		AD554E461CE319710002CF81 /* ScrollViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E451CE319710002CF81 /* ScrollViewTestTests.m */; };
+		AD554E511CE319710002CF81 /* ScrollViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E501CE319710002CF81 /* ScrollViewTestUITests.m */; };
+		AD554E721CE432380002CF81 /* LDABaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E601CE432380002CF81 /* LDABaseView.m */; };
+		AD554E731CE432380002CF81 /* LDABlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E621CE432380002CF81 /* LDABlueView.m */; };
+		AD554E741CE432380002CF81 /* LDAGreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E641CE432380002CF81 /* LDAGreenView.m */; };
+		AD554E751CE432380002CF81 /* LDAOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E661CE432380002CF81 /* LDAOrange.m */; };
+		AD554E761CE432380002CF81 /* LDAPurpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E681CE432380002CF81 /* LDAPurpleView.m */; };
+		AD554E771CE432380002CF81 /* LDARedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E6A1CE432380002CF81 /* LDARedView.m */; };
+		AD554E781CE432380002CF81 /* LDAWhiteView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E6C1CE432380002CF81 /* LDAWhiteView.m */; };
+		AD554E791CE432380002CF81 /* LDAYellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E6E1CE432380002CF81 /* LDAYellowView.m */; };
+		AD554E7A1CE432380002CF81 /* hitTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD554E6F1CE432380002CF81 /* hitTest.storyboard */; };
+		AD554E7B1CE432380002CF81 /* hitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E711CE432380002CF81 /* hitTestViewController.m */; };
+		AD554E821CE44AEA0002CF81 /* LDAFishController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E811CE44AEA0002CF81 /* LDAFishController.m */; };
+		AD554E871CE453030002CF81 /* transition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD554E841CE453030002CF81 /* transition.storyboard */; };
+		AD554E881CE453030002CF81 /* transitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554E861CE453030002CF81 /* transitionViewController.m */; };
+		AD554EA51CE45D8E0002CF81 /* LDATabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD554EA41CE45D8E0002CF81 /* LDATabBarViewController.swift */; };
+		AD554EA71CE45D940002CF81 /* LDATabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD554EA61CE45D940002CF81 /* LDATabBar.swift */; };
+		AD554EB61CE473E60002CF81 /* Dynamic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD554EB31CE473E60002CF81 /* Dynamic.storyboard */; };
+		AD554EB71CE473E60002CF81 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554EB51CE473E60002CF81 /* DynamicViewController.m */; };
+		AD554EBB1CE488100002CF81 /* ChannelController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554EBA1CE488100002CF81 /* ChannelController.m */; };
+		AD554EBD1CE4886E0002CF81 /* Channel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD554EBC1CE4886E0002CF81 /* Channel.storyboard */; };
+		AD554EC11CE489B10002CF81 /* TigerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554EC01CE489B10002CF81 /* TigerViewController.m */; };
+		AD554EC51CE489F70002CF81 /* WatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD554EC41CE489F70002CF81 /* WatchViewController.m */; };
+		AD554EC71CE48A210002CF81 /* Tiger.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD554EC61CE48A210002CF81 /* Tiger.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD554E421CE319710002CF81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD554E201CE319700002CF81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD554E271CE319700002CF81;
+			remoteInfo = ScrollViewTest;
+		};
+		AD554E4D1CE319710002CF81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD554E201CE319700002CF81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD554E271CE319700002CF81;
+			remoteInfo = ScrollViewTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD554E281CE319700002CF81 /* ScrollViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD554E2C1CE319710002CF81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD554E2E1CE319710002CF81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD554E2F1CE319710002CF81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD554E311CE319710002CF81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD554E321CE319710002CF81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD554E371CE319710002CF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD554E3A1CE319710002CF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD554E3C1CE319710002CF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD554E411CE319710002CF81 /* ScrollViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD554E451CE319710002CF81 /* ScrollViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestTests.m; sourceTree = "<group>"; };
+		AD554E471CE319710002CF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD554E4C1CE319710002CF81 /* ScrollViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD554E501CE319710002CF81 /* ScrollViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestUITests.m; sourceTree = "<group>"; };
+		AD554E521CE319710002CF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD554E5F1CE432380002CF81 /* LDABaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDABaseView.h; path = hitTest/LDABaseView.h; sourceTree = "<group>"; };
+		AD554E601CE432380002CF81 /* LDABaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDABaseView.m; path = hitTest/LDABaseView.m; sourceTree = "<group>"; };
+		AD554E611CE432380002CF81 /* LDABlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDABlueView.h; path = hitTest/LDABlueView.h; sourceTree = "<group>"; };
+		AD554E621CE432380002CF81 /* LDABlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDABlueView.m; path = hitTest/LDABlueView.m; sourceTree = "<group>"; };
+		AD554E631CE432380002CF81 /* LDAGreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDAGreenView.h; path = hitTest/LDAGreenView.h; sourceTree = "<group>"; };
+		AD554E641CE432380002CF81 /* LDAGreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDAGreenView.m; path = hitTest/LDAGreenView.m; sourceTree = "<group>"; };
+		AD554E651CE432380002CF81 /* LDAOrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDAOrange.h; path = hitTest/LDAOrange.h; sourceTree = "<group>"; };
+		AD554E661CE432380002CF81 /* LDAOrange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDAOrange.m; path = hitTest/LDAOrange.m; sourceTree = "<group>"; };
+		AD554E671CE432380002CF81 /* LDAPurpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDAPurpleView.h; path = hitTest/LDAPurpleView.h; sourceTree = "<group>"; };
+		AD554E681CE432380002CF81 /* LDAPurpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDAPurpleView.m; path = hitTest/LDAPurpleView.m; sourceTree = "<group>"; };
+		AD554E691CE432380002CF81 /* LDARedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDARedView.h; path = hitTest/LDARedView.h; sourceTree = "<group>"; };
+		AD554E6A1CE432380002CF81 /* LDARedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDARedView.m; path = hitTest/LDARedView.m; sourceTree = "<group>"; };
+		AD554E6B1CE432380002CF81 /* LDAWhiteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDAWhiteView.h; path = hitTest/LDAWhiteView.h; sourceTree = "<group>"; };
+		AD554E6C1CE432380002CF81 /* LDAWhiteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDAWhiteView.m; path = hitTest/LDAWhiteView.m; sourceTree = "<group>"; };
+		AD554E6D1CE432380002CF81 /* LDAYellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDAYellowView.h; path = hitTest/LDAYellowView.h; sourceTree = "<group>"; };
+		AD554E6E1CE432380002CF81 /* LDAYellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDAYellowView.m; path = hitTest/LDAYellowView.m; sourceTree = "<group>"; };
+		AD554E6F1CE432380002CF81 /* hitTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = hitTest.storyboard; path = hitTest/hitTest.storyboard; sourceTree = "<group>"; };
+		AD554E701CE432380002CF81 /* hitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hitTestViewController.h; path = hitTest/hitTestViewController.h; sourceTree = "<group>"; };
+		AD554E711CE432380002CF81 /* hitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = hitTestViewController.m; path = hitTest/hitTestViewController.m; sourceTree = "<group>"; };
+		AD554E801CE44AEA0002CF81 /* LDAFishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDAFishController.h; sourceTree = "<group>"; };
+		AD554E811CE44AEA0002CF81 /* LDAFishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDAFishController.m; sourceTree = "<group>"; };
+		AD554E841CE453030002CF81 /* transition.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = transition.storyboard; sourceTree = "<group>"; };
+		AD554E851CE453030002CF81 /* transitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transitionViewController.h; sourceTree = "<group>"; };
+		AD554E861CE453030002CF81 /* transitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transitionViewController.m; sourceTree = "<group>"; };
+		AD554EA11CE45D740002CF81 /* ScrollViewTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollViewTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD554EA41CE45D8E0002CF81 /* LDATabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDATabBarViewController.swift; sourceTree = "<group>"; };
+		AD554EA61CE45D940002CF81 /* LDATabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDATabBar.swift; sourceTree = "<group>"; };
+		AD554EB31CE473E60002CF81 /* Dynamic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dynamic.storyboard; sourceTree = "<group>"; };
+		AD554EB41CE473E60002CF81 /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		AD554EB51CE473E60002CF81 /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		AD554EB91CE488100002CF81 /* ChannelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelController.h; sourceTree = "<group>"; };
+		AD554EBA1CE488100002CF81 /* ChannelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelController.m; sourceTree = "<group>"; };
+		AD554EBC1CE4886E0002CF81 /* Channel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Channel.storyboard; sourceTree = "<group>"; };
+		AD554EBF1CE489B10002CF81 /* TigerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TigerViewController.h; sourceTree = "<group>"; };
+		AD554EC01CE489B10002CF81 /* TigerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TigerViewController.m; sourceTree = "<group>"; };
+		AD554EC31CE489F70002CF81 /* WatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchViewController.h; sourceTree = "<group>"; };
+		AD554EC41CE489F70002CF81 /* WatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchViewController.m; sourceTree = "<group>"; };
+		AD554EC61CE48A210002CF81 /* Tiger.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tiger.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD554E251CE319700002CF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD554E3E1CE319710002CF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD554E491CE319710002CF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD554E1F1CE319700002CF81 = {
+			isa = PBXGroup;
+			children = (
+				AD554E2A1CE319710002CF81 /* ScrollViewTest */,
+				AD554E441CE319710002CF81 /* ScrollViewTestTests */,
+				AD554E4F1CE319710002CF81 /* ScrollViewTestUITests */,
+				AD554E291CE319700002CF81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD554E291CE319700002CF81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD554E281CE319700002CF81 /* ScrollViewTest.app */,
+				AD554E411CE319710002CF81 /* ScrollViewTestTests.xctest */,
+				AD554E4C1CE319710002CF81 /* ScrollViewTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD554E2A1CE319710002CF81 /* ScrollViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				AD554E2E1CE319710002CF81 /* AppDelegate.h */,
+				AD554E2F1CE319710002CF81 /* AppDelegate.m */,
+				AD554E311CE319710002CF81 /* ViewController.h */,
+				AD554E321CE319710002CF81 /* ViewController.m */,
+				AD554E5E1CE4313B0002CF81 /* hitTest */,
+				AD554E7F1CE44AEA0002CF81 /* baseAnimation */,
+				AD554E831CE453030002CF81 /* transition */,
+				AD554EB21CE473E60002CF81 /* Dynamic */,
+				AD554E891CE458360002CF81 /* roundButton */,
+				AD554EB81CE488100002CF81 /* PointInside */,
+				AD554EC21CE489F70002CF81 /* Watch */,
+				AD554EBE1CE489B10002CF81 /* Tiger */,
+				AD554E371CE319710002CF81 /* Assets.xcassets */,
+				AD554E391CE319710002CF81 /* LaunchScreen.storyboard */,
+				AD554E3C1CE319710002CF81 /* Info.plist */,
+				AD554E2B1CE319710002CF81 /* Supporting Files */,
+			);
+			path = ScrollViewTest;
+			sourceTree = "<group>";
+		};
+		AD554E2B1CE319710002CF81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD554E2C1CE319710002CF81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD554E441CE319710002CF81 /* ScrollViewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD554E451CE319710002CF81 /* ScrollViewTestTests.m */,
+				AD554E471CE319710002CF81 /* Info.plist */,
+			);
+			path = ScrollViewTestTests;
+			sourceTree = "<group>";
+		};
+		AD554E4F1CE319710002CF81 /* ScrollViewTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD554E501CE319710002CF81 /* ScrollViewTestUITests.m */,
+				AD554E521CE319710002CF81 /* Info.plist */,
+			);
+			path = ScrollViewTestUITests;
+			sourceTree = "<group>";
+		};
+		AD554E5E1CE4313B0002CF81 /* hitTest */ = {
+			isa = PBXGroup;
+			children = (
+				AD554E5F1CE432380002CF81 /* LDABaseView.h */,
+				AD554E601CE432380002CF81 /* LDABaseView.m */,
+				AD554E611CE432380002CF81 /* LDABlueView.h */,
+				AD554E621CE432380002CF81 /* LDABlueView.m */,
+				AD554E631CE432380002CF81 /* LDAGreenView.h */,
+				AD554E641CE432380002CF81 /* LDAGreenView.m */,
+				AD554E651CE432380002CF81 /* LDAOrange.h */,
+				AD554E661CE432380002CF81 /* LDAOrange.m */,
+				AD554E671CE432380002CF81 /* LDAPurpleView.h */,
+				AD554E681CE432380002CF81 /* LDAPurpleView.m */,
+				AD554E691CE432380002CF81 /* LDARedView.h */,
+				AD554E6A1CE432380002CF81 /* LDARedView.m */,
+				AD554E6B1CE432380002CF81 /* LDAWhiteView.h */,
+				AD554E6C1CE432380002CF81 /* LDAWhiteView.m */,
+				AD554E6D1CE432380002CF81 /* LDAYellowView.h */,
+				AD554E6E1CE432380002CF81 /* LDAYellowView.m */,
+				AD554E6F1CE432380002CF81 /* hitTest.storyboard */,
+				AD554E701CE432380002CF81 /* hitTestViewController.h */,
+				AD554E711CE432380002CF81 /* hitTestViewController.m */,
+			);
+			name = hitTest;
+			sourceTree = "<group>";
+		};
+		AD554E7F1CE44AEA0002CF81 /* baseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AD554E801CE44AEA0002CF81 /* LDAFishController.h */,
+				AD554E811CE44AEA0002CF81 /* LDAFishController.m */,
+			);
+			path = baseAnimation;
+			sourceTree = "<group>";
+		};
+		AD554E831CE453030002CF81 /* transition */ = {
+			isa = PBXGroup;
+			children = (
+				AD554E841CE453030002CF81 /* transition.storyboard */,
+				AD554E851CE453030002CF81 /* transitionViewController.h */,
+				AD554E861CE453030002CF81 /* transitionViewController.m */,
+			);
+			path = transition;
+			sourceTree = "<group>";
+		};
+		AD554E891CE458360002CF81 /* roundButton */ = {
+			isa = PBXGroup;
+			children = (
+				AD554EA61CE45D940002CF81 /* LDATabBar.swift */,
+				AD554EA41CE45D8E0002CF81 /* LDATabBarViewController.swift */,
+				AD554EA11CE45D740002CF81 /* ScrollViewTest-Bridging-Header.h */,
+			);
+			path = roundButton;
+			sourceTree = "<group>";
+		};
+		AD554EB21CE473E60002CF81 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				AD554EB31CE473E60002CF81 /* Dynamic.storyboard */,
+				AD554EB41CE473E60002CF81 /* DynamicViewController.h */,
+				AD554EB51CE473E60002CF81 /* DynamicViewController.m */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		AD554EB81CE488100002CF81 /* PointInside */ = {
+			isa = PBXGroup;
+			children = (
+				AD554EB91CE488100002CF81 /* ChannelController.h */,
+				AD554EBA1CE488100002CF81 /* ChannelController.m */,
+				AD554EBC1CE4886E0002CF81 /* Channel.storyboard */,
+			);
+			path = PointInside;
+			sourceTree = "<group>";
+		};
+		AD554EBE1CE489B10002CF81 /* Tiger */ = {
+			isa = PBXGroup;
+			children = (
+				AD554EC61CE48A210002CF81 /* Tiger.storyboard */,
+				AD554EBF1CE489B10002CF81 /* TigerViewController.h */,
+				AD554EC01CE489B10002CF81 /* TigerViewController.m */,
+			);
+			path = Tiger;
+			sourceTree = "<group>";
+		};
+		AD554EC21CE489F70002CF81 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				AD554EC31CE489F70002CF81 /* WatchViewController.h */,
+				AD554EC41CE489F70002CF81 /* WatchViewController.m */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD554E271CE319700002CF81 /* ScrollViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD554E551CE319710002CF81 /* Build configuration list for PBXNativeTarget "ScrollViewTest" */;
+			buildPhases = (
+				AD554E241CE319700002CF81 /* Sources */,
+				AD554E251CE319700002CF81 /* Frameworks */,
+				AD554E261CE319700002CF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViewTest;
+			productName = ScrollViewTest;
+			productReference = AD554E281CE319700002CF81 /* ScrollViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD554E401CE319710002CF81 /* ScrollViewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD554E581CE319710002CF81 /* Build configuration list for PBXNativeTarget "ScrollViewTestTests" */;
+			buildPhases = (
+				AD554E3D1CE319710002CF81 /* Sources */,
+				AD554E3E1CE319710002CF81 /* Frameworks */,
+				AD554E3F1CE319710002CF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD554E431CE319710002CF81 /* PBXTargetDependency */,
+			);
+			name = ScrollViewTestTests;
+			productName = ScrollViewTestTests;
+			productReference = AD554E411CE319710002CF81 /* ScrollViewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD554E4B1CE319710002CF81 /* ScrollViewTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD554E5B1CE319710002CF81 /* Build configuration list for PBXNativeTarget "ScrollViewTestUITests" */;
+			buildPhases = (
+				AD554E481CE319710002CF81 /* Sources */,
+				AD554E491CE319710002CF81 /* Frameworks */,
+				AD554E4A1CE319710002CF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD554E4E1CE319710002CF81 /* PBXTargetDependency */,
+			);
+			name = ScrollViewTestUITests;
+			productName = ScrollViewTestUITests;
+			productReference = AD554E4C1CE319710002CF81 /* ScrollViewTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD554E201CE319700002CF81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dongao Li";
+				TargetAttributes = {
+					AD554E271CE319700002CF81 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G5NN4KHS3G;
+					};
+					AD554E401CE319710002CF81 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G5NN4KHS3G;
+						TestTargetID = AD554E271CE319700002CF81;
+					};
+					AD554E4B1CE319710002CF81 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G5NN4KHS3G;
+						TestTargetID = AD554E271CE319700002CF81;
+					};
+				};
+			};
+			buildConfigurationList = AD554E231CE319700002CF81 /* Build configuration list for PBXProject "ScrollViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD554E1F1CE319700002CF81;
+			productRefGroup = AD554E291CE319700002CF81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD554E271CE319700002CF81 /* ScrollViewTest */,
+				AD554E401CE319710002CF81 /* ScrollViewTestTests */,
+				AD554E4B1CE319710002CF81 /* ScrollViewTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD554E261CE319700002CF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD554EC71CE48A210002CF81 /* Tiger.storyboard in Resources */,
+				AD554EBD1CE4886E0002CF81 /* Channel.storyboard in Resources */,
+				AD554E3B1CE319710002CF81 /* LaunchScreen.storyboard in Resources */,
+				AD554EB61CE473E60002CF81 /* Dynamic.storyboard in Resources */,
+				AD554E381CE319710002CF81 /* Assets.xcassets in Resources */,
+				AD554E7A1CE432380002CF81 /* hitTest.storyboard in Resources */,
+				AD554E871CE453030002CF81 /* transition.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD554E3F1CE319710002CF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD554E4A1CE319710002CF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD554E241CE319700002CF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD554E331CE319710002CF81 /* ViewController.m in Sources */,
+				AD554E301CE319710002CF81 /* AppDelegate.m in Sources */,
+				AD554E2D1CE319710002CF81 /* main.m in Sources */,
+				AD554E771CE432380002CF81 /* LDARedView.m in Sources */,
+				AD554E821CE44AEA0002CF81 /* LDAFishController.m in Sources */,
+				AD554E731CE432380002CF81 /* LDABlueView.m in Sources */,
+				AD554EB71CE473E60002CF81 /* DynamicViewController.m in Sources */,
+				AD554EBB1CE488100002CF81 /* ChannelController.m in Sources */,
+				AD554EC11CE489B10002CF81 /* TigerViewController.m in Sources */,
+				AD554EA51CE45D8E0002CF81 /* LDATabBarViewController.swift in Sources */,
+				AD554E791CE432380002CF81 /* LDAYellowView.m in Sources */,
+				AD554E881CE453030002CF81 /* transitionViewController.m in Sources */,
+				AD554EA71CE45D940002CF81 /* LDATabBar.swift in Sources */,
+				AD554E7B1CE432380002CF81 /* hitTestViewController.m in Sources */,
+				AD554E741CE432380002CF81 /* LDAGreenView.m in Sources */,
+				AD554E721CE432380002CF81 /* LDABaseView.m in Sources */,
+				AD554E761CE432380002CF81 /* LDAPurpleView.m in Sources */,
+				AD554E781CE432380002CF81 /* LDAWhiteView.m in Sources */,
+				AD554EC51CE489F70002CF81 /* WatchViewController.m in Sources */,
+				AD554E751CE432380002CF81 /* LDAOrange.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD554E3D1CE319710002CF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD554E461CE319710002CF81 /* ScrollViewTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD554E481CE319710002CF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD554E511CE319710002CF81 /* ScrollViewTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD554E431CE319710002CF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD554E271CE319700002CF81 /* ScrollViewTest */;
+			targetProxy = AD554E421CE319710002CF81 /* PBXContainerItemProxy */;
+		};
+		AD554E4E1CE319710002CF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD554E271CE319700002CF81 /* ScrollViewTest */;
+			targetProxy = AD554E4D1CE319710002CF81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD554E391CE319710002CF81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD554E3A1CE319710002CF81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD554E531CE319710002CF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD554E541CE319710002CF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD554E561CE319710002CF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScrollViewTest/roundButton",
+				);
+				INFOPLIST_FILE = ScrollViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenxing.ScrollViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScrollViewTest/roundButton/ScrollViewTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD554E571CE319710002CF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScrollViewTest/roundButton",
+				);
+				INFOPLIST_FILE = ScrollViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenxing.ScrollViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScrollViewTest/roundButton/ScrollViewTest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AD554E591CE319710002CF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenxing.ScrollViewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViewTest.app/ScrollViewTest";
+			};
+			name = Debug;
+		};
+		AD554E5A1CE319710002CF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenxing.ScrollViewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViewTest.app/ScrollViewTest";
+			};
+			name = Release;
+		};
+		AD554E5C1CE319710002CF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollViewTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenxing.ScrollViewTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollViewTest;
+			};
+			name = Debug;
+		};
+		AD554E5D1CE319710002CF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollViewTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenxing.ScrollViewTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollViewTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD554E231CE319700002CF81 /* Build configuration list for PBXProject "ScrollViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD554E531CE319710002CF81 /* Debug */,
+				AD554E541CE319710002CF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD554E551CE319710002CF81 /* Build configuration list for PBXNativeTarget "ScrollViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD554E561CE319710002CF81 /* Debug */,
+				AD554E571CE319710002CF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD554E581CE319710002CF81 /* Build configuration list for PBXNativeTarget "ScrollViewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD554E591CE319710002CF81 /* Debug */,
+				AD554E5A1CE319710002CF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD554E5B1CE319710002CF81 /* Build configuration list for PBXNativeTarget "ScrollViewTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD554E5C1CE319710002CF81 /* Debug */,
+				AD554E5D1CE319710002CF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD554E201CE319700002CF81 /* Project object */;
+}

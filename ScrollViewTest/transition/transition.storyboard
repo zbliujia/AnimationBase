@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Transition View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="transitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZHJ-lS-aze">
+                                <rect key="frame" x="140" y="60" width="320" height="480"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fL6-VL-u5o" appends="YES" id="HXv-uq-MnH"/>
+                                    <outletCollection property="gestureRecognizers" destination="IL6-dC-gcn" appends="YES" id="Fd2-rO-hnc"/>
+                                    <outletCollection property="gestureRecognizers" destination="uR1-At-L2g" appends="YES" id="Kes-bh-wqN"/>
+                                    <outletCollection property="gestureRecognizers" destination="E8A-y3-9TN" appends="YES" id="oIt-x4-tj0"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="ZHJ-lS-aze" secondAttribute="centerX" id="Xr8-5P-nT7"/>
+                            <constraint firstAttribute="centerY" secondItem="ZHJ-lS-aze" secondAttribute="centerY" id="wzt-aY-4G1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="ZHJ-lS-aze" id="mZ2-Kz-9Vy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="fL6-VL-u5o">
+                    <connections>
+                        <action selector="swipe:" destination="vXZ-lx-hvc" id="8dP-Fk-f7C"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="IL6-dC-gcn">
+                    <connections>
+                        <action selector="swipe:" destination="vXZ-lx-hvc" id="h1L-ye-UzS"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="uR1-At-L2g">
+                    <connections>
+                        <action selector="swipe:" destination="vXZ-lx-hvc" id="VKP-WQ-Kc2"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="E8A-y3-9TN">
+                    <connections>
+                        <action selector="swipe:" destination="vXZ-lx-hvc" id="grG-Q8-q58"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="320" height="480"/>
+    </resources>
+</document>
